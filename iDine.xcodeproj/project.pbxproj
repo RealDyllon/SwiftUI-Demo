@@ -11,6 +11,11 @@
 		5332544A2662688C00B520DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254492662688C00B520DE /* ContentView.swift */; };
 		5332544C2662688E00B520DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5332544B2662688E00B520DE /* Assets.xcassets */; };
 		5332544F2662688E00B520DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5332544E2662688E00B520DE /* Preview Assets.xcassets */; };
+		533254572662690A00B520DE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254562662690A00B520DE /* Helper.swift */; };
+		5332545A2662691D00B520DE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254582662691D00B520DE /* Order.swift */; };
+		5332545B2662691D00B520DE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254592662691D00B520DE /* Menu.swift */; };
+		5332545D2662693100B520DE /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5332545C2662693100B520DE /* menu.json */; };
+		53325461266281EE00B520DE /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53325460266281EE00B520DE /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		5332544B2662688E00B520DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5332544E2662688E00B520DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		533254502662688E00B520DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533254562662690A00B520DE /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Extras/Helper.swift; sourceTree = SOURCE_ROOT; };
+		533254582662691D00B520DE /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = Extras/Order.swift; sourceTree = SOURCE_ROOT; };
+		533254592662691D00B520DE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Extras/Menu.swift; sourceTree = SOURCE_ROOT; };
+		5332545C2662693100B520DE /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = Extras/menu.json; sourceTree = SOURCE_ROOT; };
+		53325460266281EE00B520DE /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 		533254462662688C00B520DE /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				5332545C2662693100B520DE /* menu.json */,
+				533254592662691D00B520DE /* Menu.swift */,
+				533254582662691D00B520DE /* Order.swift */,
+				533254562662690A00B520DE /* Helper.swift */,
 				533254472662688C00B520DE /* iDineApp.swift */,
 				533254492662688C00B520DE /* ContentView.swift */,
+				53325460266281EE00B520DE /* ItemRow.swift */,
 				5332544B2662688E00B520DE /* Assets.xcassets */,
 				533254502662688E00B520DE /* Info.plist */,
 				5332544D2662688E00B520DE /* Preview Content */,
@@ -126,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5332545D2662693100B520DE /* menu.json in Resources */,
 				5332544F2662688E00B520DE /* Preview Assets.xcassets in Resources */,
 				5332544C2662688E00B520DE /* Assets.xcassets in Resources */,
 			);
@@ -140,6 +156,10 @@
 			files = (
 				5332544A2662688C00B520DE /* ContentView.swift in Sources */,
 				533254482662688C00B520DE /* iDineApp.swift in Sources */,
+				53325461266281EE00B520DE /* ItemRow.swift in Sources */,
+				5332545A2662691D00B520DE /* Order.swift in Sources */,
+				533254572662690A00B520DE /* Helper.swift in Sources */,
+				5332545B2662691D00B520DE /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
