@@ -16,6 +16,8 @@
 		5332545B2662691D00B520DE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254592662691D00B520DE /* Menu.swift */; };
 		5332545D2662693100B520DE /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5332545C2662693100B520DE /* menu.json */; };
 		53325461266281EE00B520DE /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53325460266281EE00B520DE /* ItemRow.swift */; };
+		5332546326628B9E00B520DE /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332546226628B9E00B520DE /* ItemDetail.swift */; };
+		5332546526629C3E00B520DE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332546426629C3E00B520DE /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		533254592662691D00B520DE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Extras/Menu.swift; sourceTree = SOURCE_ROOT; };
 		5332545C2662693100B520DE /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = Extras/menu.json; sourceTree = SOURCE_ROOT; };
 		53325460266281EE00B520DE /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		5332546226628B9E00B520DE /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		5332546426629C3E00B520DE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				533254562662690A00B520DE /* Helper.swift */,
 				533254472662688C00B520DE /* iDineApp.swift */,
 				533254492662688C00B520DE /* ContentView.swift */,
+				5332546226628B9E00B520DE /* ItemDetail.swift */,
+				5332546426629C3E00B520DE /* OrderView.swift */,
 				53325460266281EE00B520DE /* ItemRow.swift */,
 				5332544B2662688E00B520DE /* Assets.xcassets */,
 				533254502662688E00B520DE /* Info.plist */,
@@ -154,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5332546326628B9E00B520DE /* ItemDetail.swift in Sources */,
+				5332546526629C3E00B520DE /* OrderView.swift in Sources */,
 				5332544A2662688C00B520DE /* ContentView.swift in Sources */,
 				533254482662688C00B520DE /* iDineApp.swift in Sources */,
 				53325461266281EE00B520DE /* ItemRow.swift in Sources */,
