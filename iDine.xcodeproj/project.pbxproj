@@ -19,6 +19,7 @@
 		5332546326628B9E00B520DE /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332546226628B9E00B520DE /* ItemDetail.swift */; };
 		5332546526629C3E00B520DE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332546426629C3E00B520DE /* OrderView.swift */; };
 		5332546726629FDC00B520DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5332546626629FDC00B520DE /* MainView.swift */; };
+		533254692662A34D00B520DE /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533254682662A34D00B520DE /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5332546226628B9E00B520DE /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		5332546426629C3E00B520DE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		5332546626629FDC00B520DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		533254682662A34D00B520DE /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,6 @@
 		5332543B2662688C00B520DE = {
 			isa = PBXGroup;
 			children = (
-				5332546626629FDC00B520DE /* MainView.swift */,
 				533254462662688C00B520DE /* iDine */,
 				533254452662688C00B520DE /* Products */,
 			);
@@ -74,10 +75,12 @@
 				533254582662691D00B520DE /* Order.swift */,
 				533254562662690A00B520DE /* Helper.swift */,
 				533254472662688C00B520DE /* iDineApp.swift */,
+				5332546626629FDC00B520DE /* MainView.swift */,
 				533254492662688C00B520DE /* ContentView.swift */,
+				53325460266281EE00B520DE /* ItemRow.swift */,
 				5332546226628B9E00B520DE /* ItemDetail.swift */,
 				5332546426629C3E00B520DE /* OrderView.swift */,
-				53325460266281EE00B520DE /* ItemRow.swift */,
+				533254682662A34D00B520DE /* CheckoutView.swift */,
 				5332544B2662688E00B520DE /* Assets.xcassets */,
 				533254502662688E00B520DE /* Info.plist */,
 				5332544D2662688E00B520DE /* Preview Content */,
@@ -165,6 +168,7 @@
 			files = (
 				5332546326628B9E00B520DE /* ItemDetail.swift in Sources */,
 				5332546726629FDC00B520DE /* MainView.swift in Sources */,
+				533254692662A34D00B520DE /* CheckoutView.swift in Sources */,
 				5332546526629C3E00B520DE /* OrderView.swift in Sources */,
 				5332544A2662688C00B520DE /* ContentView.swift in Sources */,
 				533254482662688C00B520DE /* iDineApp.swift in Sources */,
@@ -309,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.iDine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.iDine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.iDine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyllon.iDine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
